@@ -5,7 +5,7 @@
       "iso_url": "iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
       "iso_checksum_type": "md5",
       "iso_checksum": "5b5e08c490ad16b59b1d9fab0def883a",
-      "headless": true,
+      "headless": false,
       "boot_wait": "2m",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
@@ -35,7 +35,7 @@
       "iso_url": "iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_SERVER_EVAL_EN-US-IR3_SSS_X64FREE_EN-US_DV9.ISO",
       "iso_checksum_type": "md5",
       "iso_checksum": "5b5e08c490ad16b59b1d9fab0def883a",
-      "headless": true,
+      "headless": false,
       "boot_wait": "2m",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
@@ -106,7 +106,7 @@
   "post-processors": [
     {
       "type": "vagrant",
-      "keep_input_artifact": false,
+      "keep_input_artifact": true,
       "output": "windows_2012_r2_{{.Provider}}.box",
       "vagrantfile_template": "vagrantfile-windows_2012_r2.template"
     }
