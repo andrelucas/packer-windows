@@ -2,6 +2,8 @@
   "builders": [
     {
       "type": "vmware-iso",
+      "output_directory": "windows_81_vmware",
+      "vm_name": "windows_81",
       "iso_url": "iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_ENTERPRISE_EVAL_EN-US-IR3_CENA_X64FREE_EN-US_DV9.ISO",
       "iso_checksum_type": "md5",
       "iso_checksum": "ee63618e3be220d86b993c1abbcf32eb",
@@ -34,6 +36,8 @@
     },
     {
       "type": "virtualbox-iso",
+      "output_directory": "windows_81_virtualbox",
+      "vm_name": "windows_81",
       "iso_url": "iso/9600.17050.WINBLUE_REFRESH.140317-1640_X64FRE_ENTERPRISE_EVAL_EN-US-IR3_CENA_X64FREE_EN-US_DV9.ISO",
       "iso_checksum_type": "md5",
       "iso_checksum": "ee63618e3be220d86b993c1abbcf32eb",
